@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "filmat"
+version = "0.1.0"
+description = "A cinema show times interface for the film.at API"
+authors = ["Michael John <michael.john@gmx.at>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.scripts]
+filmat = 'filmat.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+homepage = "https://github.com/amstelchen/filmat"
+repository = "https://github.com/amstelchen/filmat"
+documentation = "https://github.com/amstelchen/filmat"
